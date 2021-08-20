@@ -1,0 +1,8 @@
+numpy
+opencv
+tensorflow
+keras
+imutils
+pickle
+PIL
+argparse

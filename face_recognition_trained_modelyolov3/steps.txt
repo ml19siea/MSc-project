@@ -1,0 +1,10 @@
+this is the object detection task where we are detecting person's identity and marking their faces.
+we have trained yolov3 model on our dataset and resultant .weights and .cfg files are taken for prediction purpose.
+
+follow below steps for running the code.
+
+1. open test.py  file and provide path for .cfg, .weights, classes.names and test image .jpg file. 
+2. Threshold values are chosen as conf_thresh=0.8 and nms_thresh=0.5.
+3. Run test.py file  >>>>> python test.py
+
+result is saved as output.jpg file every time we run test.py file.

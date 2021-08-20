@@ -1,0 +1,10 @@
+we are going to test an image using both social distacing violation and face recognition part. 
+models are trained using our dataset.
+
+dont move any of the files from the folder.
+
+follow below steps for running the code
+1. open final.py file and then check all paths for the required files and provide the correct path.
+2. run the file final.py. it gives output as output.jpg inside the same folder.
+
+python final.py

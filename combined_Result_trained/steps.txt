@@ -1,0 +1,15 @@
+we are going to test image/video using both social distacing violation and face recognition part. 
+yolov3 models are trained using our dataset.
+
+dont move any of the files from the folder.
+
+
+follow below steps for running the code
+1. open final.py/video.py file and then check all paths for the required files and provide the correct path.
+2. run the file using below code. it gives output as output.jpg/output.mp4 inside the same folder.
+
+image
+python final.py
+
+video
+python video.py --output output.mp4

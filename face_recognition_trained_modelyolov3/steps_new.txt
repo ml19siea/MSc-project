@@ -1,0 +1,16 @@
+this is the object detection task where we are detecting person's identity and marking their faces.
+we have trained yolov3 model on our dataset and resultant .weights and .cfg files are taken for prediction purpose.
+
+follow below steps for running the code. we are using input image/video for prediction. test.py file is for images and video.py file is for video input.
+
+1. open test.py/video.py  file and provide path for .cfg, .weights, classes.names and test imagg.jpg/video.mp4 file. 
+2. Threshold values are chosen as conf_thresh=0.8 and nms_thresh=0.5.
+3. Run the code
+
+image
+python test.py
+
+video
+python video.py --output output.mp4
+
+result is saved as output.jpg/output.mp4 file every time we run the code.

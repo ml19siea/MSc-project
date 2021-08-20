@@ -1,0 +1,16 @@
+this is a code for social distacing violations using yolov3. This yolov3 model is trained using the given dataset.
+
+images/video for testing purpose are present in testing folder. let us predict the result by running main.py/video.py file. main.py file is for input images.
+
+1. provide paths for yolov3_custom_final.weights, yolov3_test.cfg,classes.names and testing image.jpg/video.mp4 inside main.py/video.py file.
+
+2. threshold value for distance is 170.
+
+3. run following code.this generates result as output.jpg/output.mp4 file.
+
+for input image, run 
+
+python main.py
+
+for input video run below code
+python video.py --output output.mp4

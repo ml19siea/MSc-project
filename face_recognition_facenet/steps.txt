@@ -1,0 +1,22 @@
+we are using pretrained facenet model and trained SVC classifier. 
+
+training SVC and testing
+
+training images are present in train_img folder and testing images are present in testing folder.
+
+
+1.  training images are present in train_img folder and they are aligned by running following code. this creates aligned images inside aligned_img folder. 
+provide path for train_img folder and aligned_img folder inside data_preprocess.py file. 
+
+python ./data_preprocess.py
+
+2. once our dataset (aligned_img) is ready, we will go for training svc model.open train_main.py file and provide aligend images, model, classifier path.
+use classifier_test.py file for training of svc. run below code to start the training. this training generates classifier.pkl file inside class folder.
+this result gives all metrics values and confusion matrix plot.
+
+python ./train_main.py
+
+
+3. predict the result by running below code on input image from testing folder. the resultant image is saved as output.jpg file
+
+python ./main.py --output output.jpg

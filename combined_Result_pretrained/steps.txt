@@ -1,0 +1,14 @@
+this is the combination of social distancing and facenet pre trained models.
+
+we are going to run the code for input image and input video files. Testing files are present in testing folder.
+For running the code on images, run project_img.py file and for video run project_vid.py file.
+
+follow below steps:
+
+1. open project_img/project_vid.py file and provide paths for respective files. 
+
+2. run the file and result will be saved as output.jpg/output.mp4
+
+Python project_img.py
+
+Python project_vid.py

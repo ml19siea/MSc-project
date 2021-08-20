@@ -1,0 +1,16 @@
+this is a code for social distacing violations using yolov3. this model is pretrained on coco dataset.
+
+we are going to run this model on video and image. refer image.py and video.py files for running the code.data for testing is present in testing folder.
+
+1. provide paths for coco.names,yolov3.weights, yolov3.cfg and testing image.jpg or video clip vid.mp4 inside the image.py/video.py file.
+2. threshold value is taken 170 for image.py as well as video.py. this value may change based on image size. 
+currently it is 170 and it works fine for images present in testing folder. 
+3. run image.py/video.py file for images/video using below command and it saves result as an output.jpg/output.mp4 file.
+
+
+for input image run below code
+python image.py
+ 
+
+for input video run below code
+python video.py --output output.mp4
